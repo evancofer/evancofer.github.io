@@ -9,13 +9,14 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Evan Cofer</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
-
+  	<link href="evancofer.css" rel = "stylesheet">
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:700,400' rel='stylesheet' type='text/css'>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -39,26 +40,107 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Evan Cofer</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class ="scroll">About</a></li>
+            <li><a href="#projects" class ="scroll">Projects</a></li>
+            <li><a href="#contact" data-toggle="modal">Contact</a></li>
+
+			<li class = "dropdown">
+			<a href = "#" class="dropdown-toggle" data-toggle="dropdown">Social Media<b class="caret"></b></a>
+			 <ul class="dropdown-menu">
+                <li><a href="https://www.linkedin.com/pub/evan-cofer/ab/415/7a9">LinkedIn</a></li>
+                <li><a href="https://github.com/evancofer">GitHub</a></li>
+              </ul>
+
+			</li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <div class="container">
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+
+<!---Section 2--->
+<header>
+<section class="aboutMe" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+                <div class="intro-text">
+                <h2>About</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-2">
+                <p>My name is Evan Cofer, welcome to my personal site. As of writing, I am an undergraduate student at Trinity University, where I am working towards a B.S. in Computer Science and working as an undergraduate researcher. </p>
+            </div>
+            <div class="col-lg-4">
+                <p>In addition to computer science, I have a love for fly fishing, hiking, backpacking, & almost everything pertaining to the great outdoors. I am eager to learn more about computer science and always looking for new challenges.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+</header>
+
+<section class="projects" id="projects">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+            <div class="projectstext">
+            <h2>Projects</h2>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <p>What is done outside of class is often just as important as what is done inside of class. This is especially true for computer science. Below are some projects that I have worked on.</p>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <div class="pull-left">
+      <p>Site By Evan Cofer</p>
+    </div>
+    <div class="pull-right">
+
+      <a class="footerlink" href="https://www.linkedin.com/in/evancofer">LinkedIn</a>
+      <a class="footerlink" href="https://github.com/evancofer">GitHub</a>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Page Pop-Ups -->
+      <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <form class="form-horizontal" role="form">
+              <div class="modal-header">
+                <h4>Contact</h4>
+              </div>
+              <div class="modal-body">
+                <p>If you would like to reach me, please do so by emailing me at ecofer@trinity.edu or by messaging me though <a href="https://www.linkedin.com/in/evancofer">Linkedin.</a></p>
+              </div>
+              <div class="modal-footer">
+                <a class="btn btn-icon" data-dismiss="modal">Close</a>
+              </div>
+          </div>
+        </div>
       </div>
 
-    </div><!-- /.container -->
+
+
 
 
     <!-- Bootstrap core JavaScript
