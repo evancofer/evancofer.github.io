@@ -57,6 +57,10 @@ section.projects p{
     background: #892e2e;
 		color: #ffffff;
 		font-family: 'Raleway', sans-serif;
+		<!--letter-spacing 1px-->
+		<!--font-size 12px-->
+	 <!--text-transform uppercase-->
+		<!--font-weight700-->
     padding-bottom: 25px;
     padding-top: 25px;
 }
