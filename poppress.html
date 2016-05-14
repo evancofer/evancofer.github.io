@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="stylesheets/home.css" rel = "stylesheet">
 </head>
 <!--Site by Evan Cofer-->
-<body>	
+<body>
 <!--Nav Bar-->
 <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container pull-right">
@@ -28,7 +28,7 @@
         </button>
 		<div class="collapse navbar-collapse navCollapseMenu">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#home" class="scroll">Home</a></li>
+				<li><a href="index.html" class="scroll">Home</a></li>
 				<li><a href="research.html" class="scroll">Research</a></li>
 				<li><a href="about.html" class="scroll">About</a></li>
 				<li class="dropdown">
@@ -46,32 +46,25 @@
 						Other<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="poppress.html" >Genomics in the News</a></li>
+						<li><a href="#genomics-in-the-news" >Genomics in the News</a></li>
 					</ul>
 				</li>
 			</ul>
 		</div>
 	</div>
 </nav>
-
 <!--Header-->
 <header id="header">
-			<div class="jumbotron">
-				Evan Cofer
-				<hr>
-				<div class="bottom-half">
-					Trinity University '17 | Computer Science
-				</div>
-			</div>
-	
 </header>
-
-<section id="home" class="home">
+<!--Content-->
+<section id="genomics-in-the-news" class="genomics-in-the-news">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
+				<h2>Genomics in the News</h2>
+				<hr>
 				<p>
-					Landing page text goes here!
+					Some words about press here.
 				</p>
 			</div>
 		</div>
@@ -80,13 +73,16 @@
 <div class="scroll-button-inverse">
 	<a href="#header"><span class="glyphicon glyphicon-circle-arrow-up"></span></a>
 </div>
-
-
+	
 <!--Footer-->
 <footer class="footer" id="footer">
 	<div class="container">
 		<div class="pull-left">
-				Site By Evan Cofer
+			<ul class="breadcrumb">
+				<li><a href="index.html">Home</a></li>
+				<li>Other</li>
+				<li><a class="active" href="#">Genomics in the News</a><li>
+			</ul>
 		</div>
 		<div class="pull-right" >
 			<a href="https://www.linkedin.com/pub/evan-cofer/ab/415/7a9"><i id="linkedin-icon" class="fa fa-linkedin-square fa-2x"></i></a>
@@ -110,6 +106,5 @@
 		</div>
 	</div>
 </div>
-
 </body>
 </html>

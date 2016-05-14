@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="stylesheets/home.css" rel = "stylesheet">
 </head>
 <!--Site by Evan Cofer-->
-<body>	
+<body>
 <!--Nav Bar-->
 <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container pull-right">
@@ -28,9 +28,9 @@
         </button>
 		<div class="collapse navbar-collapse navCollapseMenu">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#home" class="scroll">Home</a></li>
+				<li><a href="index.html" class="scroll">Home</a></li>
 				<li><a href="research.html" class="scroll">Research</a></li>
-				<li><a href="about.html" class="scroll">About</a></li>
+				<li><a href="#about" class="scroll">About</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown">
 						Social Media<span class="caret"></span>
@@ -52,27 +52,32 @@
 			</ul>
 		</div>
 	</div>
-</nav>
+</nav>	
 
 <!--Header-->
 <header id="header">
-			<div class="jumbotron">
-				Evan Cofer
-				<hr>
-				<div class="bottom-half">
-					Trinity University '17 | Computer Science
-				</div>
-			</div>
-	
 </header>
-
-<section id="home" class="home">
+<!--Content-->
+<section id="about" class="about">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
+				<h2>Who am I?</h2>
+				<hr class="hr-inverse">
 				<p>
-					Landing page text goes here!
+					My name is Evan Cofer, welcome to my personal site. As of writing, I am an undergraduate student at Trinity University, where I am working towards a B.S. in Computer Science and working as an undergraduate researcher. In addition to computer science, I have a love for fly fishing, hiking, backpacking, & almost everything pertaining to the great outdoors. I am eager to learn more about computer science and always looking for new challenges.
 				</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-4 col-sm-push-4 text-center">
+				SDlfkkalskldkdkkdkdkkkkkkk
+			</div>
+
+			<div class="col-sm-4 text-center">
+				<h4>Relevant Documents</h4>
+				<a href="texts/cv.txt">My CV →</a>
 			</div>
 		</div>
 	</div>
@@ -80,13 +85,14 @@
 <div class="scroll-button-inverse">
 	<a href="#header"><span class="glyphicon glyphicon-circle-arrow-up"></span></a>
 </div>
-
-
 <!--Footer-->
 <footer class="footer" id="footer">
 	<div class="container">
 		<div class="pull-left">
-				Site By Evan Cofer
+			<ul class="breadcrumb">
+				<li><a href="index.html">Home</a></li>
+				<li><a class="active" href="#">About</a><li>
+			</ul>
 		</div>
 		<div class="pull-right" >
 			<a href="https://www.linkedin.com/pub/evan-cofer/ab/415/7a9"><i id="linkedin-icon" class="fa fa-linkedin-square fa-2x"></i></a>
@@ -105,7 +111,7 @@
 				If you would like to reach me, please do so by emailing me at <a href="mailto:ecofer@trinity.edu">evancofer@trinity.edu</a>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn" data-dismiss="modal">close</button>
+				<button type="button" class="btn" role="button" data-dismiss="modal">close</button>
 			</div>
 		</div>
 	</div>
@@ -113,3 +119,7 @@
 
 </body>
 </html>
+
+
+
+

@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="stylesheets/home.css" rel = "stylesheet">
 </head>
 <!--Site by Evan Cofer-->
-<body>	
+<body>
 <!--Nav Bar-->
 <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container pull-right">
@@ -28,8 +28,8 @@
         </button>
 		<div class="collapse navbar-collapse navCollapseMenu">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#home" class="scroll">Home</a></li>
-				<li><a href="research.html" class="scroll">Research</a></li>
+				<li><a href="index.html" class="scroll">Home</a></li>
+				<li><a href="#research" class="scroll">Research</a></li>
 				<li><a href="about.html" class="scroll">About</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown">
@@ -53,40 +53,54 @@
 		</div>
 	</div>
 </nav>
-
 <!--Header-->
 <header id="header">
-			<div class="jumbotron">
-				Evan Cofer
-				<hr>
-				<div class="bottom-half">
-					Trinity University '17 | Computer Science
-				</div>
-			</div>
-	
 </header>
-
-<section id="home" class="home">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 text-center">
-				<p>
-					Landing page text goes here!
-				</p>
-			</div>
+<!--Content-->
+<section id="research" class="page-section unpadded-levels unpadded-sides">
+	<div class="sidebar-page-split"><div id="split-row" class="row">
+		<div id="sidebar" class="col-sm-1 text-center sidebar unpadded-sides">
+				<ul class="list-group">
+					<li class="list-group-item"><div class="list-header">Links</div></li>
+					<li class="list-group-item li-inverse"><a href="texts/EvanCoferCV.pdf">CV</a></li>
+					<li class="list-group-item unpadded-sides li-inverse">
+						<a href="#" data-toggle="collapse" data-target="#researchProjectsSidebarCollapse">
+							Projects<span class="caret"></span>
+						</a>
+						<div class="collapse" id="researchProjectsSidebarCollapse">
+							<div class="div-inverse unpadded-sides">
+								<a href="#">ISMB</a>
+							</div>
+						</div>
+					</li>
+				</ul>
 		</div>
-	</div>
+		<div class="col-sm-8 col-sm-offset-1 text-center page">
+			<section class="section-inverse research">
+				<h2>Overview</h2>
+				<hr class="hr-inverse">
+				<p>
+					I am currently a researcher for the <a href="http://www.cs.trinity.edu/~mhibbs/HibbsHome/Home.html">Hibbs Computational Biology laboratory</a>
+				</p>
+				
+				<div class="scroll-button-inverse">
+					<a href="#header"><span class="glyphicon glyphicon-circle-arrow-up"></span></a>
+				</div>
+			</section>
+		</div>
+	</div></div>
 </section>
-<div class="scroll-button-inverse">
-	<a href="#header"><span class="glyphicon glyphicon-circle-arrow-up"></span></a>
-</div>
+
 
 
 <!--Footer-->
 <footer class="footer" id="footer">
 	<div class="container">
 		<div class="pull-left">
-				Site By Evan Cofer
+			<ul class="breadcrumb">
+				<li><a href="index.html">Home</a></li>
+				<li><a class="active" href="#">Research</a><li>
+			</ul>
 		</div>
 		<div class="pull-right" >
 			<a href="https://www.linkedin.com/pub/evan-cofer/ab/415/7a9"><i id="linkedin-icon" class="fa fa-linkedin-square fa-2x"></i></a>
@@ -94,7 +108,6 @@
 		</div>
 	</div>
 </footer>
-<!--Modals-->
 <div class="modal fade" id="contact" role="dialog">
 	<div class="modal-dialog">
 		<div class="modal-content well well-lg">
@@ -110,6 +123,5 @@
 		</div>
 	</div>
 </div>
-
 </body>
 </html>
