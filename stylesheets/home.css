@@ -40,7 +40,7 @@ body{
 }
 
 .scroll-button-inverse {
-	font-size: 3em;
+	font-size: 45px;
 	color: #262626;
 	text-align: center;
 	padding-top: 15px;
@@ -52,7 +52,7 @@ body{
 }
 
 .scroll-button {
-	font-size: 3em;
+	font-size: 45px;
 	color: #ffffff;
 	text-align: center;
 	padding-top: 15px;
