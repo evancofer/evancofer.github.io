@@ -4,7 +4,8 @@
 	color: black;
 }
 .table-striped>tbody>tr:nth-child(odd)> td > a:link,
-.table-striped>tbody>tr:nth-child(odd)> td > a {
+.table-striped>tbody>tr:nth-child(odd)> td > a,
+.table-striped>tbody>tr:nth-child(odd)> td > a:visited {
 	font-size: 18px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -23,7 +24,8 @@
 	color: #a6b8b6;
 }
 .table-striped>tbody>tr:nth-child(even)> td > a:link,
-.table-striped>tbody>tr:nth-child(even)> td > a {
+.table-striped>tbody>tr:nth-child(even)> td > a,
+.table-striped>tbody>tr:nth-child(even)> td > a:visited {
 	font-size: 18px;
 	letter-spacing: 1px;
 	text-transform: uppercase;

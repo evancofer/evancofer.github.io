@@ -63,7 +63,8 @@ body{
 	color: #ffffff;
 }
 
-.navbar-default .navbar-nav > li > a:link {
+.navbar-default .navbar-nav > li > a:link,
+.navbar-default .navbar-nav > li > a:visited {
 	color: #ffffff;
 }
 
@@ -231,6 +232,11 @@ section .section-inverse {
 	text-decoration: none;
 }
 
+#footer > a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
 #github-icon {
 	color: #ffffff;
 }
@@ -307,9 +313,11 @@ section .section-inverse {
 	font-weight: 700;
 }
 
-.list-group-item > a:link {
+.list-group-item > a:link,
+.list-group-item > a:visited {
 	color: white;
 }
+
 
 .list-group-item > a:hover, .list-group-item > a:focus {
 	color: #a6b8b6;
