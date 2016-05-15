@@ -82,7 +82,8 @@ footer > .container > .pull-left > .breadcrumb {
 	padding-top: 0;
 }
 
-.breadcrumb > li > a:link {
+.breadcrumb > li > a:link,
+.breadcrumb > li > a:visited {
 	color: #ffffff;
 }
 
