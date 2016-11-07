@@ -272,6 +272,7 @@ section .section-inverse {
 #research {
 	background-color: white;
 	color: black;
+    font-size: 1em;
 }
 
 #sidebar > .list-group > .list-group-item {
