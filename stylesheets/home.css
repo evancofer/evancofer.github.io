@@ -283,6 +283,12 @@ section .section-inverse {
     font-size: 1em;
 }
 
+#publications {
+	background-color: white;
+	color: black;
+    font-size: 1em;
+}
+
 #sidebar > .list-group > .list-group-item {
 	color: white;
 	background-color: black;
@@ -291,6 +297,10 @@ section .section-inverse {
 } 
 
 .research {
+	font-size: 1em;
+}
+
+.publications {
 	font-size: 1em;
 }
 
