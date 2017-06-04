@@ -246,6 +246,14 @@ section .section-inverse {
 	color: #a6b8b6;
 }
 
+#twitter-icon {
+    color: #ffffff;
+}
+
+#twitter-icon:hover {
+    color: #a6b8b6;
+}
+
 #linkedin-icon {
 	color: #ffffff;
 }
