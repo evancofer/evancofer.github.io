@@ -1,0 +1,368 @@
+body{
+	background-color: #262626;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default {
+	background-color: #262626;
+	padding-right: 20px;
+	border-bottom: 1px solid #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.jumbotron {
+	text-align: center;
+	font-variant: small-caps;
+	background-color: inherit;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 4em;
+	font-weight: 700;
+}
+
+.jumbotron > .bottom-half {
+	font-size: 0.5em;
+}
+
+.navbar-default .navbar-text {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.scroll-button-inverse {
+	font-size: 45px;
+	color: #262626;
+	text-align: center;
+	padding-top: 15px;
+	background-color: white;
+}
+
+.scroll-button-inverse > a > .glyphicon {
+	color: #262626;
+}
+
+.scroll-button {
+	font-size: 45px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 15px;
+	background-color: #262626;
+}
+
+.scroll-button > a > .glyphicon {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:link,
+.navbar-default .navbar-nav > li > a:visited {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #a6b8b6;
+}
+
+footer > .container > .pull-left > .breadcrumb {
+	font-size: 12px;
+  	letter-spacing: 1px;
+	text-transform: uppercase;
+	background-color: #262626;
+	color: #ffffff;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.breadcrumb > li > a:link,
+.breadcrumb > li > a:visited {
+	color: #ffffff;
+}
+
+ .breadcrumb > li > a:hover, .breadcrumb > li > a:focus {
+  	color: #a6b8b6;
+}
+
+section {
+	background-color: #262626;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 1.25em;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 25px;
+}
+
+header {
+	background-color: #262626;
+	color: #ffffff;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 50px;
+	border-bottom: 1px solid #ffffff;
+	
+}
+
+header .container {
+	padding-top: 50px;
+}
+
+hr {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.hr-full {
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.hr-inverse {
+	border-color: #262626;
+}
+
+a {
+	color: #ffffff
+	text-decoration: none;
+}
+
+a:link {
+	color: #ffffff
+	text-decoration: none;
+}
+a:visited  {
+	color: #a6b8b6;
+	text-decoration: none;
+}
+ 
+a:hover {
+	color: #a6b8b6;
+	text-decoration: none;
+}
+
+h4 {
+	font-variant: small-caps;
+}
+
+.modal {
+	color: black;
+}
+
+.modal-title {
+	text-align: center;
+	font-variant: small-caps;
+}
+
+.modal-footer {
+	text-align: center;
+	font-variant: small-caps;
+}
+
+
+section .section-inverse {
+	background-color: white;
+	color: black;
+}
+
+.unpadded-sides {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.unpadded-levels {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.sidebar-page-split {
+	background-color: white;
+	color: black;
+	padding-top: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.sidebar-page-split > .sidebar {
+	background-color: black;
+	color: white;
+	height: 90%;
+	margin-left: 0%;
+}
+
+.sidebar-page-split > .page {
+	background-color: white;
+	color: black;
+	padding-top: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#footer {
+	bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #262626;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	height: 60px;
+	width: 100%;
+	border-top: 1px solid #ffffff;
+	vertical-align: center;
+}
+
+#footer > .container {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#footer > a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#footer > a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#github-icon {
+	color: #ffffff;
+}
+
+#github-icon:hover {
+	color: #a6b8b6;
+}
+
+#twitter-icon {
+    color: #ffffff;
+}
+
+#twitter-icon:hover {
+    color: #a6b8b6;
+}
+
+#linkedin-icon {
+	color: #ffffff;
+}
+
+#linkedin-icon:hover {
+	color: #a6b8b6;
+}
+
+#home {
+	background-color: white;
+	color: black;
+}
+
+#about {
+	background-color: white;
+	color: black;
+}
+
+#genomics-in-the-news{
+	background-color: white;
+	color: black;
+}
+
+#research {
+	background-color: white;
+	color: black;
+    font-size: 1em;
+}
+
+#publications {
+	background-color: white;
+	color: black;
+    font-size: 1em;
+}
+
+#sidebar > .list-group > .list-group-item {
+	color: white;
+	background-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+} 
+
+.research {
+	font-size: 1em;
+}
+
+.publications {
+	font-size: 1em;
+}
+
+#split-row {
+	margin-right: 0%;
+}
+
+.div-inverse {
+	color: black;
+	background-color: white;
+}
+
+.list-header {
+	color: #a6b8b6;
+}
+
+.list-group-item {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.list-group-item > a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.list-group-item > a:link,
+.list-group-item > a:visited {
+	color: white;
+}
+
+
+.list-group-item > a:hover, .list-group-item > a:focus {
+	color: #a6b8b6;
+}
+
+#sidebar {
+	min-width: 150px;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   	background-color: white;
+	color: black;
+ }
+ 
+ .table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   	background-color: #262626;
+	color: white;
+ }
+ 
+ #genomics-in-the-news {
+	 padding-bottom: 0px;
+ }
+ 
+ #news-table {
+	 padding-bottom: 0;
+ }

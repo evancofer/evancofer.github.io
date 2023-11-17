@@ -6,118 +6,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="The landing page for Evan Cofer's personal website.">
 	<meta name="author" content="Evan Cofer">
-	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="stylesheets/home.css">
 	<title>Evan Cofer</title>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="stylesheets/home.css" rel = "stylesheet">
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-78078396-1', 'auto');
-		ga('send', 'pageview');
-	</script>
 </head>
 <!--Site by Evan Cofer-->
-<body>	
-<!--Nav Bar-->
-<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container pull-right">
-		<button class="navbar-toggle" data-toggle="collapse" data-target=".navCollapseMenu">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-		<div class="collapse navbar-collapse navCollapseMenu">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#home" class="scroll">Home</a></li>
-				<li><a href="research.html">Research</a></li>
-				<li><a href="publications.html">Publications</a></li>
-				<li><a href="texts/EvanCoferCV.pdf">CV</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown">
-						Social Media<span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu">
-						<li><a href="https://github.com/evancofer">GitHub</a></li>
-						<li><a href="https://www.linkedin.com/pub/evan-cofer/ab/415/7a9">LinkedIn</a></li>
-                        <li><a href="https://twitter.com/evan_cofer">Twitter</a></li>
-					</ul>
-				</li>
-				<li><a href="#contact" data-toggle="modal">Contact</a></li>
-			</ul>
-		</div>
+<body>
+	<div class="container-lg px-3 my-5 markdown-body">
+		<h1>Evan Cofer</h1>
+		<hline>
+		<p><img src="images/headshot.png"></p>
+		<h2>About</h2>
+		<p>I am a postdoctoral fellow in the <a href="https://www.deboramarkslab.com/">Marks Lab</a> at Harvard Medical School, where I work on modeling genetic variation in both coding and non-coding regions of the genome.
+		In 2023 I received my PhD in Quantitative and Computational Biology from Princeton University, where I was advised by <a href="https://function.princeton.edu/">Olga Troyanskaya</a>.
+		I received my BS in Computer Science from Trinity University in 2017.</p>
+
+		<p>I work on computational techniques for analyzing large-scale sets of genomic variation.
+		In general, I am interested in how we can develop and use machine learning models to better understand, predict, and design regulatory mechanisms.
+		</p>
+
+		<p>In my free time, I like to rock climb and play tabletop RPGs.</p>
+		
+		<p><a href="texts/EvanCoferCV.pdf">A link to my one-page CV, which also has links to my GitHub etc.</a></p>
+		<h3>Contact</h3>
+		<p> Email me at evan_cofer [at] hms.harvard.edu</p>
 	</div>
-</nav>
-
-<!--Header-->
-<header id="header">
-			<div class="jumbotron">
-				Evan Cofer
-				<hr>
-	<!--			<div class="bottom-half">
-					Trinity University '17 | Computer Science
-				</div>-->
-			</div>
-	
-</header>
-
-<section id="home" class="home">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 text-center">
-				<h2>Where are you?</h2>
-				<hr class="hr-inverse">
-				<p> 
-					You are at my home page! Welcome to my personal website, my name is Evan Cofer. I am a member of the <a href="http://function.princeton.edu/">Troyanskaya Lab</a>, and a Ph.D. student at <a href="https://www.princeton.edu/">Princeton University</a> in the <a href="http://lsi.princeton.edu/qcbgraduate">Graduate Program in Quantitative and Computational Biology</a>. Feel free to take a look around my website. Should you have any questions, don't hesitate to email me at ecofer [at] princeton [dot] edu</a>. Scientific research is my passion, and I hope to continue performing research <i>ad infinitum</i>. If you would like to know more about my work, check out my <a href="research.html">research page</a>.
-				</p>
-				<!-- <p>
-					For leisure I enjoy hiking, flyfishing, and exploring the great outdoors.
-				</p> -->
-			</div>
-		</div>
-	</div>
-	<div class="scroll-button-inverse">
-	<a href="#header"><span class="glyphicon glyphicon-circle-arrow-up"></span></a>
-	</div>
-</section>
-
-
-
-<!--Footer-->
-<footer class="footer" id="footer">
-	<div class="container">
-		<div class="pull-left">
-				Site By Evan Cofer
-		</div>
-		<div class="pull-right" >
-			<a href="https://www.linkedin.com/pub/evan-cofer/ab/415/7a9"><i id="linkedin-icon" class="fa fa-linkedin-square fa-2x"></i></a>
-			<a href="https://github.com/evancofer"><i id="github-icon" class="fa fa-github fa-2x"></i></a>
-            <a href="https://twitter.com/evan_cofer"><i id="twitter-icon" class="fa fa-twitter fa-2x"></i></a>
-		</div>
-	</div>
-</footer>
-<!--Modals-->
-<div class="modal fade" id="contact" role="dialog">
-	<div class="modal-dialog">
-		<div class="modal-content well well-lg">
-			<div class="modal-header">
-				<h4 class="modal-title">Contact</h4>
-			</div>
-			<div class="modal-body">
-				If you would like to reach me, please do so by emailing me at ecofer [at] princeton [dot] edu
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn" data-dismiss="modal">close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
 </body>
-</html>
